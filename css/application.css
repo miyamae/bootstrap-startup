@@ -1,0 +1,18 @@
+.hero-unit h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.nav {
+  width: 180px;
+}
+
+/* footer */
+
+#wrap {
+  margin-bottom: -60px;
+}
+
+#push, #footer {
+  height: 60px;
+}
