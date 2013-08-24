@@ -17,11 +17,11 @@
   }
 
   .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
+    right: 55%; /* 6 columns */
   }
 
   .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
+    left: 55%; /* 6 columns */
   }
 
   .sidebar-offcanvas {
