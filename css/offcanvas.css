@@ -6,18 +6,9 @@
     transition: all 0.25s ease-out;
   }
 
-  .row-offcanvas-right
-  .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
-  }
-
   .row-offcanvas-left
   .sidebar-offcanvas {
     left: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-right.active {
-    right: 55%; /* 6 columns */
   }
 
   .row-offcanvas-left.active {
@@ -28,5 +19,6 @@
     position: absolute;
     top: 0;
     width: 50%; /* 6 columns */
+    z-index: 9999;
   }
 }
