@@ -16,15 +16,16 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-#push,
-#footer {
+#push, #footer {
   height: 60px;
 }
 .footer {
   background-color: #eee;
   color: #aaa;
 }
-
+#footer * {
+    z-index: -999;
+}
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
